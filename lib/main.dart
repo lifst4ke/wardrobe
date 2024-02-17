@@ -45,6 +45,13 @@ class _MyWardrobeState extends State <MyWardrobe>{
                         width: double.maxFinite,
                         height: double.maxFinite,
                         color: Color.fromARGB(100, 250, 0, 250),
+                        alignment: Alignment.center,
+                        child: Text( '1',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 50
+                            )
+                        ),
                       ),
                       flex: 4,
                     ),
@@ -88,6 +95,13 @@ class _MyWardrobeState extends State <MyWardrobe>{
                           width: double.maxFinite,
                           height: double.maxFinite,
                           color: Color.fromARGB(100, 50, 50, 250),
+                          alignment: Alignment.center,
+                          child: Text( '2',
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontSize: 50
+                              )
+                          ),
                         ),
                         flex: 4,
                       ),
